@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="height: 1px">
+    <div>
+      <h1 style="font-size: 50px; display: flex; justify-content: center">
+        OSI模型--wiki
+      </h1>
+      <p style="font-size: 25px">
+        开放式系统互联模型（英语：Open System Interconnection
+        Model，缩写：OSI；简称为OSI模型）是一种概念模型，由国际标准化组织提出，
+        一个试图使各种计算机在世界范围内互连为网络的标准框架。定义于ISO/IEC
+        7498-1。该模型将通信系统中的数据流划分为七个层，从分布式应用
+        程序数据的最高层表示到跨通信介质传输数据的物理实现。每个中间层为其上一层提供功能，其自身功能则由其下一层提供。功能的类别通过标准的
+        通信协议在软件中实现。开放式系统互联模型的开发始于上世纪70年代后期，用以支持各种计算机联网方法的出现。
+        在上世纪80年代，该模型成为国际标准化组织（ISO）开放系统互连小组的工作产品。
+      </p>
+      <h1 style="display: flex; justify-content: center; align-items: center">
+        历史
+      </h1>
+      <p style="font-size: 25px">
+        在制定计算机网络标准方面，起着重大作用的两大国际组织是：国际电信联盟电信标准化部门，与国际标准组织（ISO），虽然它们工作领域不同，但随着科学技术的发展，通信与信息处理之间的界限开始变得比较模糊，这也成了国际电信联盟电信标准化部门和ISO共同关心的领域。
+        1984年，ISO发布了著名的ISO/IEC
+        7498标准，它定义了网络互联的7层框架，也就是开放式系统互联参考模型。
+      </p>
+    </div>
+    <div>
+      <h1 style="display: flex; justify-content: center">OSI模型分别有什么?</h1>
+      <h1 style="font: size 40px; display: flex; justify-content: center">
+        第1层 物理层
+      </h1>
+      <p style="font-size: 25px">
+        物理层（Physical Layer）在局域网上发送数据帧（Data
+        Frame），它负责管理电脑通信设备和网络媒体之间的互通。包括了针脚、电压、线缆规范、集线器、中继器、网卡、主机接口卡、路由器等。
+      </p>
+      <h1 style="font: size 40px; display: flex; justify-content: center">
+        第2层 数据链路层
+      </h1>
+      <p style="font-size: 25px">
+        資料連結層（Data Link
+        Layer）负责网络寻址、错误侦测和改错。当表头和表尾被加至数据包时，会形成信息框（Info
+        Box）。数据链表头（DLH）是包含了物理地址和错误侦测及改错的方法。数据链表尾（DLT）是一串指示数据包末端的字符串。例如以太网、无线局域网（Wi-Fi）和通用分组无线服务（GPRS）等。
+        分为两个子层：逻辑链路控制（logical link
+        control，LLC）子层和介质访问控制（Media access control，MAC）子层。
+      </p>
+      <h1 style="font: size 40px; display: flex; justify-content: center">
+        第3层 网络层
+      </h1>
+      <p style="font-size: 25px">
+        网络层（Network
+        Layer）决定数据的路径选择和转寄，将网络表头（NH）加至数据包，以形成分组。网络表头包含了网络资料。例如:互联网协议（IP）等。
+      </p>
+      <h1 style="font: size 40px; display: flex; justify-content: center">
+        第4层 传输层
+      </h1>
+      <p style="font-size: 25px">
+        传输层（Transport
+        Layer）把传输表头（TH）加至资料以形成分组。传输表头包含了所使用的协议等发送信息。例如:传输控制协议（TCP）等。
+      </p>
+      <h1 style="font: size 40px; display: flex; justify-content: center">
+        第5层 会议层
+      </h1>
+      <p style="font-size: 25px">
+        会议层（Session
+        Layer）负责在数据传输中设置和维护计算机网络中两台计算机之间的通信连接。
+      </p>
+      <h1 style="font: size 40px; display: flex; justify-content: center">
+        第6层 表现层
+      </h1>
+      <p style="font-size: 25px">
+        表现层（Presentation
+        Layer）把数据转换为能与接收者的系统格式兼容并适合传输的格式。
+      </p>
+      <h1 style="font: size 40px; display: flex; justify-content: center">
+        第7层 应用层
+      </h1>
+      <p style="font-size: 25px">
+        应用层（Application
+        Layer）提供为应用软件而设计的接口，以设置与另一应用软件之间的通信。例如：HTTP、HTTPS、FTP、Telnet、SSH、SMTP、POP3等。
+      </p>
+    </div>
+  </body>
+</html>
